@@ -127,3 +127,38 @@ main{
         gap: 1.5rem;
     }
 }
+
+/*emoji background card*/
+.emoji{
+    display:flex;
+    flex-direction: column;
+
+    border: 2px solid #777;
+    border-radius: 10px;
+    padding: 1.5rem;
+
+    background-color: white;
+    
+}
+
+/*emoji icon*/
+.icon{
+    order: -1;
+
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+/*card headings*/
+.emoji h2{
+    font-size: 1.8rem;
+    font-weight: 700;
+
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid #ccc;
+}
